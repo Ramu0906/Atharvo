@@ -48,7 +48,7 @@ def predict():
         # Make predictions
         lr_prediction = lr_model.predict(X)
         knn_prediction = knn_model.predict(X)
-        rfc_prediction = rfc_model.predict(X)
+        rfc_prediction = rfc_model.predict(X) 
         
 
     except Exception as e:
